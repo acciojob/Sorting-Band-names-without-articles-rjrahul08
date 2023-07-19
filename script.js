@@ -1,8 +1,4 @@
-//your code here
-
-// script.js
 let touristSpots = ['The Virupaksha Temple', 'Victoria Memorial', 'Tajmahal'];
-
 
 // Function to sort band names excluding articles
 function sortBandNames(bandNames) {
@@ -29,7 +25,7 @@ function sortBandNames(bandNames) {
 }
 
 // Sort the band names and add them to the 'band' ul element
-const bandList = sortBandNames(bandNames);
+const bandList = sortBandNames(touristSpots);
 const bandListElement = document.getElementById('band');
 
 bandList.forEach(band => {
